@@ -1,0 +1,60 @@
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+#map {
+  /* height: 80em; */
+  width:100%;
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+  font: 400 11px Roboto, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  /* position: absolute; */
+  /* top: 0px; */
+}
+
+#banner {
+  padding: 3em 0 0 0;
+  /* height: 100%; */
+}
+
+#header.alt {
+  padding: 1em 1.5em;
+}
+
+#header.alt nav {
+  top: .7em;
+}
+
+.infoWindow {
+  color: black;
+}
+
+/* .iconList {
+  display: inline-block !important;
+} */
+
+/* a > embed {
+  padding-top: .5em
+} */
+
+/* 
+ * Optional: Makes the sample page fill the window. 
+ */
+/* html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+} */
+/* h1{
+  color: blue;
+  height: 5%;
+  margin: 0;
+} */
